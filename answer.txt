@@ -1,9 +1,11 @@
 Create a new file called answers.txt paste the following questions into the file and push it to your remote repository: 
 Q What is a gitignore file and what should it include for a Java project? 
+Ans: gitignore file indicates Git to exclude/ignore the unwanted files while committing to our Github repository. For Java project it includes package files like .jar , .war and .ear
 
 Q What does fast-forward in git mean?
+Ans : Fast-forward in git means that if there is straight path between head branch and target branch, it skips extra commits in between and performs merge straightaway. 
 
 Q Why should you have different branches? 
-
+Ans: When multiple people are working on same project, branching allows users to branch out from the original and updated code base, where they can now work over their individual tasks and merge, once completed. This helps to reduce conflicts and confusions when many people are working on distinct individual tasks for a same project.
   Q In a project how many remote Git repositories do you usually have? 
-
+Ans: Generally there is one remote repository for a project and all the users of the project can have copy of that remote repository in their respective local.
